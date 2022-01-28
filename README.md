@@ -2,7 +2,7 @@
 
 Used Room Database and Followed MVVM Architecture Pattern to build the app
 
-<a id="raw-url" href="apk/app-release.apk.apk?raw=true"><img src="https://raw.githubusercontent.com/nasim0x1/nasim0x1/main/image/download.svg"  width="180" height=auto>
+<a id="raw-url" href="apk/app-release.apk?raw=true"><img src="https://raw.githubusercontent.com/nasim0x1/nasim0x1/main/image/download.svg"  width="180" height=auto>
 </a>
 
 ## Specs / Open-source libraries:
