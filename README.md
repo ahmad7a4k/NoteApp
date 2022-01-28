@@ -9,6 +9,7 @@ Used Room Database and Followed MVVM Architecture Pattern to build the app
 
 - Minimum **SDK 21**, _but AppCompat is used all the way ;-)_
 - [**Kotlin**](https://github.com/JetBrains/kotlin) all new modules starting from 2.5.3 will be written in **#Kotlin**.
+- [**Room Database**](https://developer.android.com/training/data-storage/room) a part of the Android Architecture components which provides an abstraction layer over SQLite
 - [**MVVM**](https://developer.android.com/jetpack/guide) the architecture pattern used in the app (Model-View-ViewModel), that incorporates the Android Architecture Components
 - [**ViewModel**](https://developer.android.com/topic/libraries/architecture/viewmodel) for designed to store and manage UI-related data in a lifecycle conscious way.
 - [**LiveData**](https://developer.android.com/topic/libraries/architecture/livedata) for observable data
