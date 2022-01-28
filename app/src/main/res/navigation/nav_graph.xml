@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fm_home">
+
+    <fragment
+        android:id="@+id/fm_addNote"
+        android:name="com.note.nasim.ui.view.fragment.AddNote"
+        android:label="fragment_add_note"
+        tools:layout="@layout/fragment_add_note" >
+        <action
+            android:id="@+id/action_addNote_to_home"
+            app:destination="@id/fm_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fm_home"
+        android:name="com.note.nasim.ui.view.fragment.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_add_note"
+            app:destination="@id/fm_addNote" />
+        <action
+            android:id="@+id/action_home_to_updateNote"
+            app:destination="@id/fm_updateNote" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fm_updateNote"
+        android:name="com.note.nasim.ui.view.fragment.UpdateNote"
+        android:label="fragment_update_note"
+        tools:layout="@layout/fragment_update_note" >
+        <action
+            android:id="@+id/action_updateNote_to_home"
+            app:destination="@id/fm_home" />
+        <argument
+            android:name="note"
+            app:argType="com.note.nasim.data.model.Note" />
+    </fragment>
+</navigation>
